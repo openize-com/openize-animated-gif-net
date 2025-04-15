@@ -1,0 +1,42 @@
+# Visual Studio 2015 cache/options director
+.vs/
+*.sln.cache
+
+
+# ReSharper is a .NET coding add-in
+*.[Rr]e[Ss]harper
+_[Rr]e[Ss]harper.[Cc]aches
+*.DotSettings.user
+
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+.packages
+packages
+
+# User-specific files
+*.suo
+*.user
+*.ncb
+
+
+# Build results
+[Oo]bj
+netcoreobj
+netstandardobj
+[Bb]in
+build-out
+out
+
+
+# Test results
+test/*
+# MSTest test Results
+[Tt]est[Rr]esult*/
+
+testresult/*
