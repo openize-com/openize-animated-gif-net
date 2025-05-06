@@ -33,6 +33,11 @@ namespace Openize.Animated.GIF.Tests
                 var solutionFolder = fullPath.Substring(0, srcIndex);
                 testDataFolder = Path.Combine(solutionFolder, "testdata");
                 testResultsFolder = Path.Combine(solutionFolder, "testresults");
+                // Create testresults folder if it doesn't exist
+                if (!Directory.Exists(testResultsFolder))
+                {
+                    Directory.CreateDirectory(testResultsFolder);
+                }
             }
             else
             {
